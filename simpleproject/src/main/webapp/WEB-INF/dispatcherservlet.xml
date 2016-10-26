@@ -15,6 +15,11 @@
   <mvc:resources mapping="/resources/**" location="/resources/"/>
   <mvc:annotation-driven /> 
   <mvc:default-servlet-handler /> 
+  <bean id="md" class="com.bike.DAO.MusicDaoImpl" /> 
+  <bean id="mdi" class="com.bike.service.BikeServDAOImpl" /> 
+  <bean id="udo" class="com.bike.DAO.UserDAOImpl" /> 
+  <bean id="udi" class="com.bike.service.UserServDaoImpl" /> 
+  <bean id="multipartResolver" class="org.springframework.web.multipart.commons.CommonsMultipartResolver" /> 
   
   <bean class="org.springframework.web.servlet.view.InternalResourceViewResolver">
   <property name="prefix">

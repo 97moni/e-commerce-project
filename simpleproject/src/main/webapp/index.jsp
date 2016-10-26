@@ -169,7 +169,7 @@
 </head>
 <body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="50">
  <!-- Header -->
-  <nav class="navbar navbar-default navbar-inverse" style="border-radius:0px !important;">
+ <nav class="navbar navbar-default navbar-inverse" style="border-radius:0px !important;">
           <div class="container-fluid">
             <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header">
@@ -225,7 +225,7 @@
                </ul>
             </div><!-- /.navbar-collapse -->
           </div><!-- /.container-fluid -->
-        </nav>
+</nav>
 <!-- End Header -->
  <!-- Slide Show -->
   <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
